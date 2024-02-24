@@ -6,21 +6,30 @@ function RateList() {
     return (
         <div className={styles.wrapper}> 
             <Rate 
-                title='300' 
+                title='Безлимитный 300' 
                 price='300' 
-                speed='10'/>
+                speed='до 10 Мбит/сек'
+                text='Объем включенного трафика не ограничен'
+                color='blue'/>
             <Rate 
-                title='450' 
+                title='Безлимитный 450' 
                 price='450' 
-                speed='50'/>
+                speed='до 50 Мбит/сек'
+                text='Объем включенного трафика не ограничен'
+                color='green'/>
             <Rate 
-                title='550' 
+                title='Безлимитный 550' 
                 price='550' 
-                speed='100'/>
+                speed='до 100 Мбит/сек'
+                text='Объем включенного трафика не ограничен'
+                color='red'
+                size='sizeable'/>
             <Rate 
-                title='1000' 
+                title='Безлимитный 1000' 
                 price='1000' 
-                speed='200'/>
+                speed='до 200 Мбит/сек'
+                text='Объем включенного трафика не ограничен'
+                color='black'/>
         </div>
     )
 }
