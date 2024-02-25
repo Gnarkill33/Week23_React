@@ -3,8 +3,7 @@ import styles from './rate.module.css'
 
 
 function Rate(props) {
-    console.log(props)
-const {title, price, speed, text, color, size} = props;
+    const {title, price, speed, text, color, size} = props;
     return (
     <div className={`${styles.rate_container} ${styles[size]}`}>
         <div className={`${styles.rate_title} ${styles[color]}`}>{title}</div>
